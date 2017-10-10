@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/bower_components'));
 /*app.get("https://sheetlabs.com/NUME/cards.json",function(req,res){
     res.json();
 });*/
-app.listen(3000, function () {
+app.listen(8080, function () {
   console.log('Example app listening on port 3000!')
 });
 
